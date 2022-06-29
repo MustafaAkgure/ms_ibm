@@ -33,13 +33,21 @@ CREATE SEQUENCE SEQ_EMPLOYEE_ID
   CACHE 20;
   
 
+
+
 /* to run application */
 
 gradlew build && java -jar build/libs/ms_ibm-0.0.1-SNAPSHOT.jar
 
+
+
+
 /* to build docker image */
 
 docker build -t ibm:0.0.1 .
+
+
+
 
 /* to make docker container */
 
